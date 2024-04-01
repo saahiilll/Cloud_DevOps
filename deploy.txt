@@ -1,0 +1,7 @@
+cd '/opt/tomcat/bin/'
+sh 'shutdown.sh'
+cd '/home/ubuntu/deploy/JAVA/'
+cp DGDC.sh '/opt/tomcat/webapps/'
+cd '/opt/tomcat/bin/'
+sh 'startup.sh'
+sh 'catalina.sh'
